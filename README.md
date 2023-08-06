@@ -1,1 +1,1 @@
-# Text2Image-Steganography
+# Text2Image-Stegan
