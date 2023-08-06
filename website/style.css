@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arvo', serif;
+    font-size: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 30em;
+    padding: 0 2em;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+header p {
+    margin-top: 0;
+}
+
+main {
+    font-size: 1.2em;
+}
+main p {
+    margin: 0
+}
+
+form {
+    text-align: left;
+    margin-top: 2em;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: .3em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: .5em;
+    border-radius: 10px;
+    border: 3px solid #91c8e4;
+    font-size: 1em;
+}
+textarea {
+    min-height: 4em;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#prompt-field textarea {
+    min-height: 3em;
+}
+button {
+    display: block;
+    margin: .5em auto;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: .5em;
+    font-weight: bold;
+    background-color: #1597bb;
+    color: white;
+    border: none;
+}
+footer {
+    margin-top: 5em;
+    background: #91c8e4;
+    padding: .5em
+}
+
+#password-field img {
+    position: relative;
+    top: -1.7em;
+    left: 24em;
+    display: contents;
+}
+#genrated_image {
+    display: block;
+    border: 2px black solid;
+    padding: 1em;
+    max-width: 90%;
+    margin: 0 auto;
+}
+#upload_image a {
+    color: black;
+    font-weight: bold;
+}
+
