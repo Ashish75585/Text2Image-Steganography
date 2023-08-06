@@ -14,19 +14,19 @@
                 <p>Steganography with Color Extractor</p>
             </header>
             <main>
-                <form method="post" enctype="multipart/form-data">
+                <form method="post" >
                     <label>Enter Data:</label>
                     <textarea id="data" name="data" required autofocus></textarea>
                     <div id="password-field">
                         <label>Enter Password:</label>
-                        <input id="password" type="current-password" name="password">
+                        <input id="password" type="password" name="password">
                         <img src="assets/eye.svg" alt="Show Password">
                     </div>
                     <div id="prompt-field">
                         <label>Enter Prompt:</label>
                         <textarea id="prompt" type="text" name="prompt" placeholder="High-fashion photography in an abandoned industrial warehouse, with dramatic lighting and edgy outfits." required></textarea>
                     </div>
-                    <button type="submit" name="submit">Generate Image</button>
+                    <button type="submit">Generate Image</button>
                 </form>
                 <!-- <img id="genrated_image" src="https://images.unsplash.com/photo-1534196012057-d9a0c7cfa5ae?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5MDgzMjQ1MQ&ixlib=rb-4.0.3&q=80&w=500" alt="Genrated image from prompt"> -->
                 <p>Or</p>
@@ -42,6 +42,7 @@
                 </p>
             </footer>
         </div>
+        <script src="wasm_exec.js"></script>
         <script src="script.js"></script>
     </body>
 </html>

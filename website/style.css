@@ -59,9 +59,6 @@ textarea {
     max-width: 100%;
 }
 
-#prompt-field textarea {
-    min-height: 3em;
-}
 button {
     display: block;
     margin: .5em auto;
@@ -81,10 +78,12 @@ footer {
 }
 
 #password-field img {
-    position: relative;
-    top: -1.7em;
-    left: 24em;
-    display: contents;
+  position: relative;
+  top: -1.9em;
+  left: 98%;
+}
+#prompt-field textarea {
+    min-height: 3em;
 }
 #genrated_image {
     display: block;
